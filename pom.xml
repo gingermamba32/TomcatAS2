@@ -51,6 +51,7 @@
             <version>1.1.1</version>
             <configuration>
                 <assembleDirectory>target</assembleDirectory>
+                <user name="admin" password="admin" roles="rssbus_appuser,rssbus_admin,admin-gui, manager-gui,manager-status,manager-script,manager-jmx" />
                 <programs>
                     <program>
                         <mainClass>launch.Main</mainClass>
